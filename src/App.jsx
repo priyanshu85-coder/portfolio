@@ -22,8 +22,6 @@ function Footer() {
   return (
     <footer className="border-t border-slate-200 py-8 dark:border-white/10">
       <div className="page-container flex flex-col items-center justify-between gap-4 text-center text-xs text-slate-500 sm:flex-row sm:text-left">
-        <p>&copy; {new Date().getFullYear()} {owner.name}. All rights reserved.</p>
-        <p>Built with React, Tailwind CSS & Framer Motion.</p>
         <div className="flex gap-5"><a href={owner.github} target="_blank" rel="noreferrer">GitHub</a><a href={owner.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></div>
       </div>
     </footer>
